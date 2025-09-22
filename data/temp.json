@@ -1,0 +1,33 @@
+{
+  "chapterId": "greetings",
+  "title": { "en": "Greetings", "ar": "التحيات", "bn": "অভিবাদন" },
+  "lessons": [
+    {
+      "id": "greet-1",
+      "title": { "en": "Greetings — Part 1", "ar": "تحيات 1", "bn": "অভিবাদন — ১" },
+      "items": [
+        {
+          "id": "g1",
+          "arabic": "مرحبا",
+          "transliteration": "Marḥabā / Marhaba",
+          "en": "Hello",
+          "bn": "হ্যেলো",
+          "audio": "/audio/greetings/marhaba.mp3",
+          "example": {
+            "ar": "مرحبا، كيف حالك؟",
+            "en": "Hello, how are you?",
+            "bn": "হ্যালো, আপনি কেমন আছেন?"
+          }
+        },
+        {
+          "id": "g2",
+          "arabic": "السلام عليكم",
+          "transliteration": "As-salāmu ʿalaykum",
+          "en": "Peace be upon you (formal greeting)",
+          "bn": "আপনার প্রতি শান্তি",
+          "audio": "/audio/greetings/assalamu_alaykum.mp3"
+        }
+      ]
+    }
+  ]
+}

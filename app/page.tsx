@@ -1,103 +1,122 @@
 import Image from "next/image";
+import Link from 'next/link';
+
+
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="min-h-screen bg-white text-gray-900">
+      {/* Header with Logo and Menu */}
+      <header className="flex items-center justify-between px-6 py-4 shadow bg-white sticky top-0 z-50">
+        {/* Logo Placeholder */}
+        <div className="text-2xl font-bold text-green-600">
+          MyArabicLogo
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+
+        {/* Menu */}
+        <nav className="space-x-6 flex items-center">
+          <a href="/lesson" className="text-gray-700 hover:text-green-600">
+            কোর্স
+          </a>
+          <a href="#enroll" className="text-gray-700 hover:text-green-600">
+            ভর্তি
+          </a>
+          <a
+            href="/en"
+            className="px-4 py-2 bg-green-600 text-white rounded-xl shadow hover:bg-green-700 transition"
+          >
+            English
+          </a>
+        </nav>
+      </header>
+
+      {/* Hero Section */}
+      <section className="flex flex-col items-center justify-center text-center py-20 px-6 bg-gradient-to-b from-green-50 to-white">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4">
+          আরবি শিখুন সহজে
+        </h1>
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl mb-6">
+          শুরু করুন আমাদের নবাগতদের জন্য আরবি কোর্স দিয়ে: <br />
+          <span className="font-semibold text-green-600">৩০০ শব্দ ও বাক্যাংশ</span>
+        </p>
+        {/* <a
+          href="/course"
+          className="px-6 py-3 bg-green-600 text-white rounded-2xl shadow hover:bg-green-700 transition"
         >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
+          আজই শেখা শুরু করুন
+        </a> */}
+
+
+      <Link
+        href="/course"
+        className="px-6 py-3 bg-green-600 text-white rounded-2xl shadow hover:bg-green-700 transition"
+      >
+       আজই শেখা শুরু করুন
+      </Link>
+
+
+
+
+      </section>
+
+      {/* Course Highlight */}
+      <section id="course" className="py-16 px-6 bg-gray-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">নবাগতদের জন্য কোর্স</h2>
+          <p className="text-gray-600 mb-8">
+            আমাদের সাজানো কোর্সের মাধ্যমে আরবির মূল বিষয়গুলো আয়ত্ত করুন।
+            ৩০০টি প্রয়োজনীয় শব্দ ও বাক্যাংশ শিখুন যা আপনাকে দৈনন্দিন কথোপকথনে সাহায্য করবে।
+          </p>
+          <div className="bg-white p-8 rounded-2xl shadow-md">
+            <h3 className="text-2xl font-semibold mb-2">৩০০ শব্দ ও বাক্যাংশ</h3>
+            <p className="text-gray-500 mb-4">
+              সহজ পাঠ • উচ্চারণ শোনা • ব্যবহারিক উদাহরণ
+            </p>
+            <a
+              href="#enroll"
+              className="px-6 py-3 bg-green-600 text-white rounded-2xl shadow hover:bg-green-700 transition"
+            >
+              এখনই ভর্তি হন
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Learn Arabic */}
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+          <div className="p-6 bg-white rounded-2xl shadow">
+            <h3 className="font-semibold text-xl mb-2">🌍 বিশ্বজুড়ে সংযোগ</h3>
+            <p className="text-gray-600 text-sm">
+              আরবি ভাষায় কথা বলে ৪০০ মিলিয়নেরও বেশি মানুষ।
+            </p>
+          </div>
+          <div className="p-6 bg-white rounded-2xl shadow">
+            <h3 className="font-semibold text-xl mb-2">📚 নবাগতদের জন্য উপযোগী</h3>
+            <p className="text-gray-600 text-sm">
+              আমাদের পাঠগুলো একেবারে শুরু থেকে ধাপে ধাপে শেখানোর জন্য তৈরি।
+            </p>
+          </div>
+          <div className="p-6 bg-white rounded-2xl shadow">
+            <h3 className="font-semibold text-xl mb-2">🎧 যেকোনো জায়গা থেকে শিখুন</h3>
+            <p className="text-gray-600 text-sm">
+              অডিও উদাহরণগুলো শুনুন এবং নিজের সুবিধামতো অনুশীলন করুন।
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer id="enroll" className="bg-green-600 text-white text-center py-10 px-6">
+        <h2 className="text-2xl font-bold mb-4">শেখা শুরু করতে প্রস্তুত?</h2>
+        <p className="mb-6">আজই আমাদের নবাগত আরবি কোর্সে ভর্তি হন।</p>
         <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#"
+          className="px-6 py-3 bg-white text-green-600 font-semibold rounded-2xl shadow hover:bg-gray-100 transition"
         >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
+          এখনই ভর্তি হন
         </a>
       </footer>
-    </div>
+    </main>
   );
 }
