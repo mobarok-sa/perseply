@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from 'next/link';
 
 
@@ -15,18 +14,18 @@ export default function Home() {
 
         {/* Menu */}
         <nav className="space-x-6 flex items-center">
-          <a href="/lesson" className="text-gray-700 hover:text-green-600">
+          <Link href="/lesson" className="text-gray-700 hover:text-green-600">
             কোর্স
-          </a>
-          <a href="#enroll" className="text-gray-700 hover:text-green-600">
+          </Link>
+          <Link href="#enroll" className="text-gray-700 hover:text-green-600">
             ভর্তি
-          </a>
-          <a
+          </Link>
+          <Link
             href="/en"
             className="px-4 py-2 bg-green-600 text-white rounded-xl shadow hover:bg-green-700 transition"
           >
             English
-          </a>
+          </Link>
         </nav>
       </header>
 
@@ -39,13 +38,7 @@ export default function Home() {
           শুরু করুন আমাদের নবাগতদের জন্য আরবি কোর্স দিয়ে: <br />
           <span className="font-semibold text-green-600">৩০০ শব্দ ও বাক্যাংশ</span>
         </p>
-        {/* <a
-          href="/course"
-          className="px-6 py-3 bg-green-600 text-white rounded-2xl shadow hover:bg-green-700 transition"
-        >
-          আজই শেখা শুরু করুন
-        </a> */}
-
+    
 
       <Link
         href="/course"
@@ -72,12 +65,12 @@ export default function Home() {
             <p className="text-gray-500 mb-4">
               সহজ পাঠ • উচ্চারণ শোনা • ব্যবহারিক উদাহরণ
             </p>
-            <a
+            <Link
               href="#enroll"
               className="px-6 py-3 bg-green-600 text-white rounded-2xl shadow hover:bg-green-700 transition"
             >
               এখনই ভর্তি হন
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -110,12 +103,12 @@ export default function Home() {
       <footer id="enroll" className="bg-green-600 text-white text-center py-10 px-6">
         <h2 className="text-2xl font-bold mb-4">শেখা শুরু করতে প্রস্তুত?</h2>
         <p className="mb-6">আজই আমাদের নবাগত আরবি কোর্সে ভর্তি হন।</p>
-        <a
+        <Link
           href="#"
           className="px-6 py-3 bg-white text-green-600 font-semibold rounded-2xl shadow hover:bg-gray-100 transition"
         >
           এখনই ভর্তি হন
-        </a>
+        </Link>
       </footer>
     </main>
   );

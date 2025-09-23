@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -10,18 +12,18 @@ export default function Home() {
 
         {/* Menu */}
         <nav className="space-x-6 flex items-center">
-          <a href="#course" className="text-gray-700 hover:text-blue-600">
+          <Link href="#course" className="text-gray-700 hover:text-blue-600">
             Course
-          </a>
-          <a href="#enroll" className="text-gray-700 hover:text-blue-600">
+          </Link>
+          <Link href="#enroll" className="text-gray-700 hover:text-blue-600">
             Enroll
-          </a>
-          <a
+          </Link>
+          <Link
             href="/"
             className="px-4 py-2 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 transition"
           >
             বাংলা
-          </a>
+          </Link>
         </nav>
       </header>
 
@@ -34,12 +36,12 @@ export default function Home() {
           Start your journey with our beginner-friendly Arabic course: <br />
           <span className="font-semibold text-blue-600">300 Words & Phrases</span>
         </p>
-        <a
+        <Link
           href="#course"
           className="px-6 py-3 bg-blue-600 text-white rounded-2xl shadow hover:bg-blue-700 transition"
         >
           Start Learning Today
-        </a>
+        </Link>
       </section>
 
       {/* Course Highlight */}
@@ -55,12 +57,12 @@ export default function Home() {
             <p className="text-gray-500 mb-4">
               Simple lessons • Audio pronunciation • Practical examples
             </p>
-            <a
+            <Link
               href="#enroll"
               className="px-6 py-3 bg-blue-600 text-white rounded-2xl shadow hover:bg-blue-700 transition"
             >
               Enroll Now
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -93,12 +95,12 @@ export default function Home() {
       <footer id="enroll" className="bg-blue-600 text-white text-center py-10 px-6">
         <h2 className="text-2xl font-bold mb-4">Ready to Start Learning?</h2>
         <p className="mb-6">Enroll in our Beginner Arabic Course today.</p>
-        <a
+        <Link
           href="#"
           className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-2xl shadow hover:bg-gray-100 transition"
         >
           Enroll Now
-        </a>
+        </Link>
       </footer>
     </main>
   );

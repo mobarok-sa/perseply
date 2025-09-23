@@ -1,8 +1,13 @@
 import courses from "../../data/courses.json";
 import Link from "next/link";
-import * as Icons from "lucide-react";
+
+import {Book} from "lucide-react";
+
 
 export default function CoursePage() {
+
+
+
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-900">
       {/* Header with Logo and Menu */}
@@ -41,8 +46,8 @@ export default function CoursePage() {
       <div className="max-w-6xl mx-auto px-6 pb-16">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {courses.chapters.map((chapter, idx) => {
-            const Icon =
-              Icons[chapter.icon as keyof typeof Icons] || Icons.BookOpen;
+            
+             
             return (
               <div
                 key={chapter.id}
@@ -51,7 +56,7 @@ export default function CoursePage() {
                 <div className="flex items-center gap-4 mb-4">
                   <div className={`p-4 bg-green-100 rounded-full group-hover:scale-110 transition ${chapter.color} `}>
                     
-                    <Icon className="w-7 h-7 text-gray-800" />
+                    <Book className="w-7 h-7 text-gray-800" />
                   </div>
                   <h2 className="text-xl font-bold text-gray-800">
                     {idx + 1}. {chapter.title.en}

@@ -1,20 +1,43 @@
 // app/course/[chapterId]/[lessonId]/AudioList.jsx
 'use client';
-import React, { useState, useRef  } from 'react';
+import React, { useRef  } from 'react';
 
 
-export default function AudioList({ items }) {
+
+
+type AudioItem = {
+  id: string;
+  arabic: string;
+  transliteration: string;
+  en: string;
+  bn: string; 
+  url: string;
+  audio: string;
+  example?: {
+    ar: string;
+    en: string;
+    bn: string;
+  };
+};
+
+
+type AudioListProps = {
+  items: AudioItem[];
+};
+
+
+export default function AudioList({ items }: AudioListProps) {
   // const playAudio = (url) => {
   //   if (!url) return;
   //   const audio = new Audio(url);
   //   audio.play();
   // };
 
- const audioRefs = useRef<{ [key: number]: HTMLAudioElement }>({});
+ const audioRefs = useRef<{ [key: string]: HTMLAudioElement }>({});
    const currentAudio = useRef<HTMLAudioElement | null>(null);
 
 
-const playAudio = (id: number, audioUrl?: string) => {
+const playAudio = (id: string, audioUrl?: string) => {
     if (!audioUrl) return;
 
 

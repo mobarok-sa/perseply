@@ -10,7 +10,15 @@ export async function generateStaticParams() {
   );
 }
 
-export default function ChapterPage({ params }) {
+
+
+interface ChapterPageParams {
+  chapterId: string;
+}
+
+export default async  function ChapterPage({ params }: { params: ChapterPageParams }) {
+
+// Use imported courses data directly
   const chapter = courses.chapters.find(c => c.id === params.chapterId);
 
   if (!chapter) return <div className="text-center py-20">Chapter not found</div>;
