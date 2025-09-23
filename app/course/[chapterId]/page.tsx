@@ -1,6 +1,6 @@
 import courses from "../../../data/courses.json";
 import Link from "next/link";
-import { BookOpen, ArrowRight, LibraryBig } from "lucide-react";
+import { BookOpen, ArrowRight } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import Footer from "@/app/components/Footer/Footer";

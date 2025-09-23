@@ -1,7 +1,6 @@
 import Link from "next/link";
 import courses from "../../../../data/courses.json";
 import AudioList from "./AudioList";
-import { BookOpen } from "lucide-react";
 import Footer from "@/app/components/Footer/Footer";
 
 export async function generateStaticParams() {
