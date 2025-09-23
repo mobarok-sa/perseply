@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BookOpen, ArrowRight, LibraryBig } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import Footer from "@/app/components/Footer/Footer";
 
 export async function generateStaticParams() {
   return courses.chapters.flatMap((chapter) =>
@@ -28,35 +29,9 @@ export default async function ChapterPage({
     return <div className="text-center py-20">Chapter not found</div>;
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-900">
-      {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 shadow bg-white sticky top-0 z-50">
-        <div className="flex items-center gap-2 text-2xl font-extrabold text-green-600 tracking-tight">
-          <LibraryBig className="w-7 h-7" />
-          MyArabicLogo
-        </div>
-        <nav className="space-x-6 flex items-center">
-          <Link
-            href="/"
-            className="text-gray-700 font-medium hover:text-green-600 transition"
-          >
-            Home
-          </Link>
-          <Link
-            href="/course"
-            className="text-gray-700 font-medium hover:text-green-600 transition"
-          >
-            Course
-          </Link>
-          <Link
-            href="/bn"
-            className="px-4 py-2 bg-green-600 text-white rounded-xl shadow hover:bg-green-700 transition"
-          >
-            বাংলা
-          </Link>
-        </nav>
-      </header>
-
+     <main className="min-h-screen flex flex-col bg-gradient-to-b from-green-50 to-white text-gray-900">
+     
+     <div className="flex-1">
       {/* Chapter Intro */}
       <section className="text-center py-12 px-6">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
@@ -92,6 +67,12 @@ export default async function ChapterPage({
           </Card>
         ))}
       </section>
+      </div>
+
+
+
+      {/* Footer in layout page */} 
+        <Footer variant="course" />
     </main>
   );
 }

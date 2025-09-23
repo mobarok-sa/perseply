@@ -2,6 +2,7 @@ import courses from "../../data/courses.json";
 import Link from "next/link";
 
 import {Book} from "lucide-react";
+import Footer from "../components/Footer/Footer";
 
 
 export default function CoursePage() {
@@ -10,26 +11,7 @@ export default function CoursePage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-900">
-      {/* Header with Logo and Menu */}
-      <header className="flex items-center justify-between px-6 py-4 shadow bg-white sticky top-0 z-50">
-        <div className="text-2xl font-extrabold text-green-600 tracking-tight">
-          MyArabicLogo
-        </div>
-        <nav className="space-x-6 flex items-center">
-          <Link
-            href="/"
-            className="text-gray-700 font-medium hover:text-green-600 transition"
-          >
-            Home
-          </Link>
-          <Link
-            href="/course"
-            className="text-gray-700 font-medium hover:text-green-600 transition"
-          >
-            Course
-          </Link>
-        </nav>
-      </header>
+     
 
       {/* Course Intro */}
       <section className="text-center py-12 px-6">
@@ -80,6 +62,9 @@ export default function CoursePage() {
           })}
         </div>
       </div>
+
+      {/* Footer in layout page */}
+        <Footer variant="course" />
     </main>
   );
 }

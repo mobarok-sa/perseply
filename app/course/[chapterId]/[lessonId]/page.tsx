@@ -2,6 +2,7 @@ import Link from "next/link";
 import courses from "../../../../data/courses.json";
 import AudioList from "./AudioList";
 import { BookOpen } from "lucide-react";
+import Footer from "@/app/components/Footer/Footer";
 
 export async function generateStaticParams() {
   return courses.chapters.flatMap((chapter) =>
@@ -40,27 +41,7 @@ export default async function LessonPage({
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-green-50 to-white text-gray-900">
-      {/* Header */}
-      <header className="flex items-center justify-between px-6 py-4 shadow bg-white sticky top-0 z-50">
-        <div className="flex items-center gap-2 text-2xl font-extrabold text-green-600">
-          <BookOpen className="w-7 h-7" />
-          MyArabicLogo
-        </div>
-        <nav className="space-x-6 flex items-center">
-          <Link href="/" className="text-gray-700 hover:text-green-600">
-            Home
-          </Link>
-          <Link href="/course" className="text-gray-700 hover:text-green-600">
-            Course
-          </Link>
-          <Link
-            href="/bn"
-            className="px-4 py-2 bg-green-600 text-white rounded-xl shadow hover:bg-green-700 transition"
-          >
-            বাংলা
-          </Link>
-        </nav>
-      </header>
+    
 
       {/* Lesson Content */}
       <section className="max-w-4xl mx-auto py-12 px-6 text-center">
@@ -72,6 +53,31 @@ export default async function LessonPage({
         </p>
         <AudioList items={audioItems} />
       </section>
+
+
+    
+      <section className="max-w-4xl mx-auto px-6 pb-16 flex justify-between">
+        {chapter.lessons.indexOf(lesson) > 0 ? (
+          <Link
+            href={`/course/${chapter.id}/${chapter.lessons[chapter.lessons.indexOf(lesson) - 1].id}`}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg font-medium shadow hover:bg-green-700 transition"
+          >
+            Previous Lesson
+          </Link>
+        ) : null}
+        {chapter.lessons.indexOf(lesson) < chapter.lessons.length - 1 ? (
+          <Link
+            href={`/course/${chapter.id}/${chapter.lessons[chapter.lessons.indexOf(lesson) + 1].id}`}
+            className="inline-flex items-center gap-2 px-4 py-2 bg-green-600 text-white rounded-lg font-medium shadow hover:bg-green-700 transition"
+          >
+            Next Lesson
+          </Link>
+        ) : null}
+      </section>
+
+      {/* Footer in layout page */}
+      <Footer variant="course" />
+      
     </main>
   );
 }
