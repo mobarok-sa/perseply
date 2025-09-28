@@ -12,48 +12,48 @@
           "items": [
             {
               "id": "g1",
-              "arabic": "আসসালামু আলাইকুম",
+              "arabic": "السلام عليكم",
               "transliteration": "Assalaamu alaikum",
               "en": "Hello",
               "bn": "আসসালামু আলাইকুম (ইসলামিক অভিবাদন)",
-              "audio": "ana-b.mp3",
+              "audio": "/audio/greetings/hello.mp3",
               "example": {
-                "ar": "আসসালামু আলাইকুম، কেফ হালাক?",
+                "ar": "السلام عليكم، كيف حالك؟",
                 "en": "Hello, how are you?",
                 "bn": "হ্যালো, আপনি কেমন আছেন?"
               }
             },
             {
               "id": "g2",
-              "arabic": "ওয়া আলাইকুম আসসালাম",
+              "arabic": "وعليكم السلام",
               "transliteration": "Wa alaikum assalaam",
               "en": "Hello (response)",
               "bn": "ওয়া আলাইকুম আসসালাম (জবাব)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/hello-response.mp3"
             },
             {
               "id": "g3",
-              "arabic": "কেফ হালাক?",
+              "arabic": "كيف حالك؟",
               "transliteration": "Keef haalak?",
               "en": "How are you? (male)",
               "bn": "আপনি কেমন আছেন? (পুরুষ)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/how-are-you-m.mp3"
             },
             {
               "id": "g4",
-              "arabic": "কেফ হালিক?",
+              "arabic": "كيف حالك؟",
               "transliteration": "Keef haalik?",
               "en": "How are you? (female)",
               "bn": "আপনি কেমন আছেন? (মহিলা)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/how-are-you-f.mp3"
             },
             {
               "id": "g5",
-              "arabic": "আনা বিখাইর",
+              "arabic": "أنا بخير",
               "transliteration": "Ana bkheer",
               "en": "I am fine",
               "bn": "আমি ভালো আছি",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/i-am-fine.mp3"
             }
           ]
         },
@@ -63,43 +63,43 @@
           "items": [
             {
               "id": "g6",
-              "arabic": "ওউ ইনতা?",
+              "arabic": "وأنت؟",
               "transliteration": "Wu inta?",
               "en": "And you? (male)",
               "bn": "আর আপনি? (পুরুষ)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/and-you-m.mp3"
             },
             {
               "id": "g7",
-              "arabic": "ওউ ইনতি?",
+              "arabic": "وأنت؟",
               "transliteration": "Wu inti?",
               "en": "And you? (female)",
               "bn": "আর আপনি? (মহিলা)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/and-you-f.mp3"
             },
             {
               "id": "g8",
-              "arabic": "ইশ ইসমাক?",
+              "arabic": "إيش اسمك؟",
               "transliteration": "Ish ismak?",
               "en": "What's your name? (male)",
               "bn": "আপনার নাম কি? (পুরুষ)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/whats-name-m.mp3"
             },
             {
               "id": "g9",
-              "arabic": "ইশ ইসমিক?",
+              "arabic": "إيش اسمك؟",
               "transliteration": "Ish ismik?",
               "en": "What's your name? (female)",
               "bn": "আপনার নাম কি? (মহিলা)",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/whats-name-f.mp3"
             },
             {
               "id": "g10",
-              "arabic": "ইসমি...",
+              "arabic": "اسمي...",
               "transliteration": "Ismi...",
               "en": "My name is...",
               "bn": "আমার নাম...",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/greetings/my-name-is.mp3"
             }
           ]
         }
@@ -117,43 +117,43 @@
           "items": [
             {
               "id": "q1",
-              "arabic": "হাদা এশ?",
+              "arabic": "هاذا إيش؟",
               "transliteration": "Haada eesh?",
               "en": "What is this?",
               "bn": "এটা কি?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/what-is-this.mp3"
             },
             {
               "id": "q2",
-              "arabic": "হাদাক এশ?",
+              "arabic": "هذاك إيش؟",
               "transliteration": "Hadaak eesh?",
               "en": "What is that?",
               "bn": "ওটা কি?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/what-is-that.mp3"
             },
             {
               "id": "q3",
-              "arabic": "আনা ফেন?",
+              "arabic": "أنا فين؟",
               "transliteration": "Ana feen?",
               "en": "Where am I?",
               "bn": "আমি কোথায় আছি?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/where-am-i.mp3"
             },
             {
               "id": "q4",
-              "arabic": "ইনতা ফেন?",
+              "arabic": "إنت فين؟",
               "transliteration": "Inta feen?",
               "en": "Where are you?",
               "bn": "আপনি কোথায় আছেন?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/where-are-you.mp3"
             },
             {
               "id": "q5",
-              "arabic": "ফেন আল মাহাত্তা?",
+              "arabic": "فين المحطة؟",
               "transliteration": "Feen almahatta?",
               "en": "Where is the gas station?",
               "bn": "পেট্রল পাম্প কোথায়?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/gas-station.mp3"
             }
           ]
         },
@@ -163,43 +163,43 @@
           "items": [
             {
               "id": "q6",
-              "arabic": "ফেন আল মুতাহাফ?",
+              "arabic": "فين المتحف؟",
               "transliteration": "Feen almuthaf?",
               "en": "Where is the museum?",
               "bn": "যাদুঘর কোথায়?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/museum.mp3"
             },
             {
               "id": "q7",
-              "arabic": "ফেন আল মুস্তাশফা?",
+              "arabic": "فين المستشفى؟",
               "transliteration": "Feen almustashfa?",
               "en": "Where is the hospital?",
               "bn": "হাসপাতাল কোথায়?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/hospital.mp3"
             },
             {
               "id": "q8",
-              "arabic": "মুস্তাশফা",
+              "arabic": "مستشفى",
               "transliteration": "Mustashfa",
               "en": "Hospital",
               "bn": "হাসপাতাল",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/hospital-word.mp3"
             },
             {
               "id": "q9",
-              "arabic": "আলমুস্তাশফা হিনা",
+              "arabic": "المستشفى هنا",
               "transliteration": "Almustashfa hina",
               "en": "The hospital is here",
               "bn": "হাসপাতাল এখানে",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/hospital-here.mp3"
             },
             {
               "id": "q10",
-              "arabic": "আলমুস্তাশফা হিনাক",
+              "arabic": "المستشفى هناك",
               "transliteration": "Almustashfa hinaak",
               "en": "The hospital is there",
               "bn": "হাসপাতাল সেখানে",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/questions/hospital-there.mp3"
             }
           ]
         }
@@ -217,43 +217,43 @@
           "items": [
             {
               "id": "d1",
-              "arabic": "লুফ ইয়ামীন",
+              "arabic": "لف يمين",
               "transliteration": "Luff yamiin",
               "en": "Turn right",
               "bn": "ডান দিকে ঘুরুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/turn-right.mp3"
             },
             {
               "id": "d2",
-              "arabic": "লুফ ইয়াসার",
+              "arabic": "لف يسار",
               "transliteration": "Luff yasaar",
               "en": "Turn left",
               "bn": "বাম দিকে ঘুরুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/turn-left.mp3"
             },
             {
               "id": "d3",
-              "arabic": "তাউইল",
+              "arabic": "طوّل",
               "transliteration": "Tawwil",
               "en": "Go straight",
               "bn": "সোজা যান",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/go-straight.mp3"
             },
             {
               "id": "d4",
-              "arabic": "আস্তান্না",
+              "arabic": "استنى",
               "transliteration": "Astanna",
               "en": "Wait",
               "bn": "অপেক্ষা করুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/wait.mp3"
             },
             {
               "id": "d5",
-              "arabic": "আস্তান্না সুআইয়া",
+              "arabic": "استنى شوية",
               "transliteration": "Astanna shwayya",
               "en": "Wait a little bit",
               "bn": "একটু অপেক্ষা করুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/wait-little.mp3"
             }
           ]
         },
@@ -263,43 +263,43 @@
           "items": [
             {
               "id": "d6",
-              "arabic": "তা'আল",
+              "arabic": "تعال",
               "transliteration": "Ta'aal",
               "en": "Come",
               "bn": "আসুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/come.mp3"
             },
             {
               "id": "d7",
-              "arabic": "তা'আল হিনা",
+              "arabic": "تعال هنا",
               "transliteration": "Ta'aal hina",
               "en": "Come here",
               "bn": "এখানে আসুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/come-here.mp3"
             },
             {
               "id": "d8",
-              "arabic": "খাল্লিক হিনাক",
+              "arabic": "خليك هناك",
               "transliteration": "Khallik hinaak",
               "en": "Stay there",
               "bn": "সেখানে থাকুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/stay-there.mp3"
             },
             {
               "id": "d9",
-              "arabic": "ইজলিস",
+              "arabic": "اجلس",
               "transliteration": "Ijlis",
               "en": "Sit down",
               "bn": "বসুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/sit-down.mp3"
             },
             {
               "id": "d10",
-              "arabic": "আওগাফ / গুম",
+              "arabic": "اقف / قوم",
               "transliteration": "awgaf / Goom",
               "en": "Stand up",
               "bn": "দাঁড়ান",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/directions/stand-up.mp3"
             }
           ]
         }
@@ -317,43 +317,43 @@
           "items": [
             {
               "id": "e1",
-              "arabic": "ডাক্তোর",
+              "arabic": "دكتور",
               "transliteration": "Daktoor",
               "en": "Doctor",
               "bn": "ডাক্তার",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/doctor.mp3"
             },
             {
               "id": "e2",
-              "arabic": "আহতাজ ডাক্তোর",
+              "arabic": "أحتاج دكتور",
               "transliteration": "Ahtaaj daktoor",
               "en": "I need a doctor",
               "bn": "আমার ডাক্তার দরকার",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/need-doctor.mp3"
             },
             {
               "id": "e3",
-              "arabic": "আশশুরতা",
+              "arabic": "الشرطة",
               "transliteration": "Asshurta",
               "en": "Police",
               "bn": "পুলিশ",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/police.mp3"
             },
             {
               "id": "e4",
-              "arabic": "দুগ আলা শুরতা",
+              "arabic": "دق عالشرطة",
               "transliteration": "Dugg ala sshurta",
               "en": "Call the police",
               "bn": "পুলিশ ডাকুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/call-police.mp3"
             },
             {
               "id": "e5",
-              "arabic": "আনা দায়ে",
+              "arabic": "أنا ضايع",
               "transliteration": "Ana daaye'",
               "en": "I am lost",
               "bn": "আমি হারিয়ে গেছি",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/i-am-lost.mp3"
             }
           ]
         },
@@ -363,43 +363,43 @@
           "items": [
             {
               "id": "e6",
-              "arabic": "সায়দালিয়্যা",
+              "arabic": "صيدلية",
               "transliteration": "Saydaliyya",
               "en": "Pharmacy",
               "bn": "ফার্মেসি",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/pharmacy.mp3"
             },
             {
               "id": "e7",
-              "arabic": "আহতাজ সায়দালিয়্যা",
+              "arabic": "أحتاج صيدلية",
               "transliteration": "Ahtaj saydaliyya",
               "en": "I need a pharmacy",
               "bn": "আমার ফার্মেসি দরকার",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/need-pharmacy.mp3"
             },
             {
               "id": "e8",
-              "arabic": "মুসাআদা",
+              "arabic": "مساعدة",
               "transliteration": "Musaa'ada",
               "en": "Help",
               "bn": "সাহায্য",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/help.mp3"
             },
             {
               "id": "e9",
-              "arabic": "আহতাজ মুসাআদা",
+              "arabic": "أحتاج مساعدة",
               "transliteration": "Ahtaaj musaa'ada",
               "en": "I need help",
               "bn": "আমার সাহায্য দরকার",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/need-help.mp3"
             },
             {
               "id": "e10",
-              "arabic": "মুমকিন তিসাআইদনি?",
+              "arabic": "ممكن تساعدني؟",
               "transliteration": "Mumkin tisaa'idni?",
               "en": "Can you help me?",
               "bn": "আপনি কি আমাকে সাহায্য করতে পারবেন?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/emergencies/can-you-help.mp3"
             }
           ]
         }
@@ -417,43 +417,43 @@
           "items": [
             {
               "id": "s1",
-              "arabic": "বিকাম হাদা?",
+              "arabic": "كم هذا؟",
               "transliteration": "Bikam haada?",
               "en": "How much is this?",
               "bn": "এটার দাম কত?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/how-much.mp3"
             },
             {
               "id": "s2",
-              "arabic": "আবগা হাদা",
+              "arabic": "أريد هذا",
               "transliteration": "Abgha haada",
               "en": "I want this",
               "bn": "আমি এটা চাই",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/i-want-this.mp3"
             },
             {
               "id": "s3",
-              "arabic": "খাসুম",
+              "arabic": "خصم",
               "transliteration": "Khasum",
               "en": "Discount",
-              "bn": "ডিসকাউন্ট",
-              "audio": "ana-b.mp3"
+              "bn": "ডিসকاؤন্ট",
+              "audio": "/audio/shopping/discount.mp3"
             },
             {
               "id": "s4",
-              "arabic": "ফী খাসুম?",
+              "arabic": "في خصم؟",
               "transliteration": "Fii khasum?",
               "en": "Do you have a discount?",
               "bn": "আপনার কাছে ডিসকাউন্ট আছে?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/have-discount.mp3"
             },
             {
               "id": "s5",
-              "arabic": "ফাতুরা",
+              "arabic": "فواتير",
               "transliteration": "Faatuura",
               "en": "Receipt",
               "bn": "রসিদ",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/receipt.mp3"
             }
           ]
         },
@@ -463,43 +463,43 @@
           "items": [
             {
               "id": "s6",
-              "arabic": "মালাবিস",
+              "arabic": "ملابس",
               "transliteration": "Malabis",
               "en": "Clothes",
               "bn": "জামাকাপড়",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/clothes.mp3"
             },
             {
               "id": "s7",
-              "arabic": "জাদীদ",
+              "arabic": "جديد",
               "transliteration": "Jadeed",
               "en": "New",
               "bn": "নতুন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/new.mp3"
             },
             {
               "id": "s8",
-              "arabic": "গাদীম",
+              "arabic": "قديم",
               "transliteration": "Gadeem",
               "en": "Old",
               "bn": "পুরানো",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/old.mp3"
             },
             {
               "id": "s9",
-              "arabic": "হাজম",
+              "arabic": "مقاس",
               "transliteration": "Hajm",
               "en": "Size",
               "bn": "সাইজ",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/size.mp3"
             },
             {
               "id": "s10",
-              "arabic": "কাবীর",
+              "arabic": "كبير",
               "transliteration": "Kabeer",
               "en": "Big",
               "bn": "বড়",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/shopping/big.mp3"
             }
           ]
         }
@@ -517,43 +517,43 @@
           "items": [
             {
               "id": "f1",
-              "arabic": "মিন্যু",
+              "arabic": "قائمة الطعام",
               "transliteration": "Minyu",
               "en": "Menu",
               "bn": "মেনু",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/food/menu.mp3"
             },
             {
               "id": "f2",
-              "arabic": "মুমকিন আলমিন্যু?",
+              "arabic": "ممكن القائمة؟",
               "transliteration": "Mumkin alminyu?",
               "en": "Can I have the menu?",
               "bn": "আমি কি মেনুটি পেতে পারি?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/food/can-i-have-menu.mp3"
             },
             {
               "id": "f3",
-              "arabic": "আলহিসাব",
+              "arabic": "الحساب",
               "transliteration": "Alhisaab",
               "en": "Check/Bill",
               "bn": "বিল",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/food/bill.mp3"
             },
             {
               "id": "f4",
-              "arabic": "মুমকিন আলহিসাব?",
+              "arabic": "ممكن الحساب؟",
               "transliteration": "Mumkin alhisaab?",
               "en": "Can I have the check?",
               "bn": "বিলটি পেতে পারি?",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/food/can-i-have-bill.mp3"
             },
             {
               "id": "f5",
-              "arabic": "আবগা আকুল",
+              "arabic": "أريد أن آكل",
               "transliteration": "Abgha aakul",
               "en": "I want to eat",
               "bn": "আমি খেতে চাই",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/food/i-want-to-eat.mp3"
             }
           ]
         }
@@ -571,43 +571,43 @@
           "items": [
             {
               "id": "gp1",
-              "arabic": "ইইওয়া",
+              "arabic": "نعم",
               "transliteration": "Iiwa",
               "en": "Yes",
               "bn": "হ্যাঁ",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/general/yes.mp3"
             },
             {
               "id": "gp2",
-              "arabic": "লা",
+              "arabic": "لا",
               "transliteration": "La'",
               "en": "No",
               "bn": "না",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/general/no.mp3"
             },
             {
               "id": "gp3",
-              "arabic": "শুকরান",
+              "arabic": "شكراً",
               "transliteration": "Shukran",
               "en": "Thank you",
               "bn": "ধন্যবাদ",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/general/thank-you.mp3"
             },
             {
               "id": "gp4",
-              "arabic": "আফওয়ান",
+              "arabic": "عفواً",
               "transliteration": "Afwan",
               "en": "You're welcome",
               "bn": "আপনাকে স্বাগতম",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/general/youre-welcome.mp3"
             },
             {
               "id": "gp5",
-              "arabic": "লাও সামাহত",
+              "arabic": "لو سمحت",
               "transliteration": "Law samaht",
               "en": "Please / Excuse me",
               "bn": "দয়া করে / মাফ করবেন",
-              "audio": "ana-b.mp3"
+              "audio": "/audio/general/please.mp3"
             }
           ]
         }

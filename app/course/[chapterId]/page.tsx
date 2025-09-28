@@ -23,7 +23,12 @@ export default async function ChapterPage({
 }: {
   params: ChapterPageParams;
 }) {
-  const chapter = courses.chapters.find((c) => c.id === params.chapterId);
+      // Await params to satisfy Next.js App Router
+  const awaitedParams = await Promise.resolve(params);
+  const { chapterId } = awaitedParams;
+
+
+  const chapter = courses.chapters.find((c) => c.id === chapterId);
 
   if (!chapter)
     return <div className="text-center py-20">Chapter not found</div>;

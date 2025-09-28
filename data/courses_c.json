@@ -1,0 +1,106 @@
+{
+  "chapters": [
+    {
+      "id": "greetings",
+      "title": {"en": "Greetings", "ar": "التحيات", "bn": "অভিবাদন"},
+      "icon": "Smile",
+      "color": "bg-yellow-100",  
+      "lessons": [
+        {"id": "greet-1", "title": {"en": "Greetings — Part 1", "ar": "تحيات 1", "bn": "অভিবাদন — ১"}, "items": [
+
+        {
+          "id": "g1",
+          "arabic": "مرحبا",
+          "transliteration": "Marḥabā / Marhaba",
+          "en": "Hello",
+          "bn": "হ্যেলো",
+          "audio": "/audio/greetings/ana-b.mp3",
+          "example": {
+            "ar": "مرحبا، كيف حالك؟",
+            "en": "Hello, how are you?",
+            "bn": "হ্যালো, আপনি কেমন আছেন?"
+          }
+        },
+        {
+          "id": "g2",
+          "arabic": "السلام عليكم",
+          "transliteration": "As-salāmu ʿalaykum",
+          "en": "Peace be upon you (formal greeting)",
+          "bn": "আপনার প্রতি শান্তি",
+          "audio": "/audio/greetings/hello.mp3"
+        }
+
+
+        ]},
+        {"id": "greet-2", "title": {"en": "Greetings — Part 2", "ar": "تحيات 2", "bn": "অভিবাদন — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "numbers",
+      "title": {"en": "Numbers", "ar": "الأرقام", "bn": "সংখ্যা"},
+      "icon": "Hash",
+      "color": "bg-purple-100",
+      "lessons": [
+        {"id": "numbers-1", "title": {"en": "Numbers — Part 1", "ar": "أرقام 1", "bn": "সংখ্যা — ১"}, "items": []},
+        {"id": "numbers-2", "title": {"en": "Numbers — Part 2", "ar": "أرقام 2", "bn": "সংখ্যা — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "food",
+      "title": {"en": "Food", "ar": "الطعام", "bn": "খাবার"},
+      "lessons": [
+        {"id": "food-1", "title": {"en": "Food — Part 1", "ar": "طعام 1", "bn": "খাবার — ১"}, "items": []},
+        {"id": "food-2", "title": {"en": "Food — Part 2", "ar": "طعام 2", "bn": "খাবার — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "travel",
+      "title": {"en": "Travel", "ar": "السفر", "bn": "ভ্রমণ"},
+      "lessons": [
+        {"id": "travel-1", "title": {"en": "Travel — Part 1", "ar": "سفر 1", "bn": "ভ্রমণ — ১"}, "items": []},
+        {"id": "travel-2", "title": {"en": "Travel — Part 2", "ar": "سفر 2", "bn": "ভ্রমণ — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "family",
+      "title": {"en": "Family", "ar": "العائلة", "bn": "পরিবার"},
+      "lessons": [
+        {"id": "family-1", "title": {"en": "Family — Part 1", "ar": "عائلة 1", "bn": "পরিবার — ১"}, "items": []},
+        {"id": "family-2", "title": {"en": "Family — Part 2", "ar": "عائلة 2", "bn": "পরিবার — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "shopping",
+      "title": {"en": "Shopping", "ar": "التسوق", "bn": "শপিং"},
+      "lessons": [
+        {"id": "shopping-1", "title": {"en": "Shopping — Part 1", "ar": "تسوق 1", "bn": "শপিং — ১"}, "items": []},
+        {"id": "shopping-2", "title": {"en": "Shopping — Part 2", "ar": "تسوق 2", "bn": "শপিং — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "time",
+      "title": {"en": "Time", "ar": "الوقت", "bn": "সময়"},
+      "lessons": [
+        {"id": "time-1", "title": {"en": "Time — Part 1", "ar": "وقت 1", "bn": "সময় — ১"}, "items": []},
+        {"id": "time-2", "title": {"en": "Time — Part 2", "ar": "وقت 2", "bn": "সময় — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "directions",
+      "title": {"en": "Directions", "ar": "الاتجاهات", "bn": "দিকনির্দেশ"},
+      "lessons": [
+        {"id": "directions-1", "title": {"en": "Directions — Part 1", "ar": "اتجاه 1", "bn": "দিকনির্দেশ — ১"}, "items": []},
+        {"id": "directions-2", "title": {"en": "Directions — Part 2", "ar": "اتجاه 2", "bn": "দিকনির্দেশ — ২"}, "items": []}
+      ]
+    },
+    {
+      "id": "daily-life",
+      "title": {"en": "Daily Life", "ar": "الحياة اليومية", "bn": "দৈনন্দিন জীবন"},
+      "lessons": [
+        {"id": "daily-1", "title": {"en": "Daily Life — Part 1", "ar": "حياة يومية 1", "bn": "দৈনন্দিন জীবন — ১"}, "items": []},
+        {"id": "daily-2", "title": {"en": "Daily Life — Part 2", "ar": "حياة يومية 2", "bn": "দৈনন্দিন জীবন — ২"}, "items": []}
+      ]
+    }
+  ]
+}
+ i need this format, now i will give you csv 

@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Globe } from "lucide-react";
+// import { Globe } from "lucide-react";
 
 export default function Navbar() { 
     return (
@@ -30,17 +30,17 @@ export default function Navbar() {
         {/* Menu */}
         <nav className="space-x-6 flex items-center">
           <Link href="/course" className="text-gray-700 hover:text-green-600">
-            শুরু করুন
+            শেখা শুরু করুন
           </Link>
          
          {/* Language Switcher */}
-       <Link
+       {/* <Link
           href="/en"
           className="p-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition flex items-center justify-center"
           aria-label="Switch to English"
         >
           <Globe className="w-5 h-5" />
-        </Link>
+        </Link> */}
 
         </nav>
       </header>
